@@ -12,9 +12,9 @@ pipeline {
     environment {
         DOCKER_CREDENTIAL_ID = 'ljl-dockerhub'
         GITHUB_CREDENTIAL_ID = 'ljl-github'
-        KUBECONFIG_CREDENTIAL_ID = 'ljl-kubernetes'
+        KUBECONFIG_CREDENTIAL_ID = 'ljl-kubernets'
         REGISTRY = 'docker.io'
-        DOCKERHUB_NAMESPACE = 'TrueVoid'
+        DOCKERHUB_NAMESPACE = 'lifeontrip'
         GITHUB_ACCOUNT = 'TrueVoid'
         APP_NAME = 'devops-java-sample'
     }
